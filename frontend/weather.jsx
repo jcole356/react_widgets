@@ -33,7 +33,7 @@ var Weather = React.createClass({
 
   render: function() {
     return (
-      <div>{this.state.weather}</div>
+      <div>Weather: {this.state.weather}</div>
     );
   }
 });
